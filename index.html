@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CryptoRobots</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Senda Kiyoharu" name="author" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <!-- <link href="img/favicon.ico" rel="icon" /> -->
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light sticky-top p-0 px-4 px-lg-5 bg-transparent"
+    >
+      <a class="navbar-brand h-50" href="#"
+        ><img class="w-75" src="./img/logo.png" alt="logo"
+      /></a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-4 py-lg-0">
+          <a href="index.html" class="nav-item nav-link active">HOME</a>
+          <a href="about.html" class="nav-item nav-link">REGISTER</a>
+          <a href="service.html" class="nav-item nav-link">MEMBER LOGIN</a>
+          <a href="roadmap.html" class="nav-item nav-link">ADMIN LOGIN</a>
+          <a href="roadmap.html" class="nav-item nav-link">CONTACT US</a>
+        </div>
+      </div>
+      <label class="pure-material-switch">
+        <input type="checkbox" />
+        <span> </span>
+      </label>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header mb-5 content-1">
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-10">
+            <h1 class="display-4 mb-3 animated fw-bold">
+              Online Trading Never Been This Easy!
+            </h1>
+            <p class="animated">
+              Besides its beautiful Interface. Cryptrobots is an incredibly rich
+              core trading platform and secure to start your your crypto journey
+            </p>
+            <button
+              class="btn btn-primary btn-circle btn-lg mt-5"
+              style="padding: 10px 26px; border-radius: 24px"
+            >
+              GET START NOW
+              <i
+                class="fa fa-chevron-circle-right"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <img
+        class="content-1-image"
+        src="./img/1.png"
+        style="margin-top: -85px"
+      />
+    </div>
+    <!-- Header End -->
+
+    <div
+      class="container-fluid footer mt-5 pt-5 wow fadeIn content-2"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <img
+              src="./img/img1.png"
+              class="content-2-image"
+              alt="background"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="text-light mb-4">Buy and Sell Cryptocurrency</h1>
+            <span class="text-light"
+              >simplifies the trading experience by making it possible to manage
+              your portfolio without interfacing directly with exchanges.</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Facts Start -->
+    <div class="container-xxl py-3">
+      <div class="container py-5">
+        <div class="row g-5 d-flex justify-content-center">
+          <div class="col-sm-6 col-md-4">
+            <div class="card shadow bg-white align-items-center border-0">
+              <img
+                src="./img/card-img/1.png"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">
+                  Emotionless Trading
+                </h5>
+                <p class="card-text text-center">
+                  Choose instead to be among the 20% of smart traders who make
+                  money by harnessing the power of trading bots to ensure a
+                  non-emotional, systematic approach to trading.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card shadow bg-white align-items-center border-0">
+              <img
+                src="./img/card-img/2.png"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">
+                  Higher trading speed
+                </h5>
+                <p class="card-text text-center">
+                  In the time it takes you to read this sentence, a trading bot
+                  could have made multiple profitable trades for you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card shadow bg-white align-items-center border-0">
+              <img
+                src="./img/card-img/3.png"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">
+                  Backtesting and paper trading
+                </h5>
+                <p class="card-text text-center">
+                  Pilots learn to fly with flight simulators, and traders should
+                  be using market simulators when learning to trade for the
+                  exact same reasons.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card shadow bg-white align-items-center border-0">
+              <img
+                src="./img/card-img/4.png"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">
+                  Risk diversification
+                </h5>
+                <p class="card-text text-center">
+                  Trading bots are about minimizing risk by not putting all of
+                  your eggs in one basket. We all know that cryptocurrency
+                  markets can be highly volatile, which is why a prudent trading
+                  strategy should include risk diversification.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card shadow bg-white align-items-center border-0">
+              <img
+                src="./img/card-img/5.png"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">
+                  Consistent trading discipline
+                </h5>
+                <p class="card-text text-center">
+                  Learning a language, finishing a marathon, becoming a Zen
+                  master. They all require one thing: discipline. And trading is
+                  no different.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Facts End -->
+
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+      <div
+        class="d-flex justify-content-between position-absolute z-index--1 w-80"
+      >
+        <img
+          src="./img/round1.png"
+          style="width: 200px; height: 200px"
+          alt=""
+        />
+        <img
+          src="./img/round1.png "
+          class="d-lg-block"
+          style="width: 300px; display: none"
+          alt=""
+        />
+      </div>
+      <div class="container mt-5 z-index-1">
+        <div
+          class="text-center mx-auto"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <h1 class="display-6 fw-bold">我们的优势</h1>
+        </div>
+        <div class="row content-3">
+          <div class="col-4 content-3-item wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/1.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">资金安全在自己币安帐号上</h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-4 content-3-item wow fadeInUp border-end border-start border-1 border-dark"
+            data-wow-delay="0.3s"
+          >
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/2.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">实时数据透明</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 content-3-item wow fadeInUp" data-wow-delay="0.5s">
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/3.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">24/7 交易</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row content-3">
+          <div class="col-4 content-3-item wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/4.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">简易操作</h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-4 content-3-item wow fadeInUp border-end border-start border-1 border-dark"
+            data-wow-delay="0.3s"
+          >
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/5.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">完全自动</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 content-3-item wow fadeInUp" data-wow-delay="0.5s">
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/6.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">月化收益率5%-20%</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row content-3">
+          <div class="col-4 content-3-item wow fadeInUp" data-wow-delay="0.3s">
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/7.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">人性化+ <br />数据化交易</h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-4 content-3-item wow fadeInUp border-end border-start border-1 border-dark"
+            data-wow-delay="0.3s"
+          >
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/8.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">高频技术 <br />系统防怠慢</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 content-3-item wow fadeInUp" data-wow-delay="0.3s">
+            <div class="d-flex align-items-start">
+              <img
+                class="img-fluid flex-shrink-0"
+                src="./img/list-img/9.png"
+                alt=""
+              />
+              <div class="ps-4">
+                <h5 class="mb-3">
+                  选择自己启动机器人 <br />(或许)全程交给机器人操作
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features End -->
+    <h1 class="display-6 text-center my-5 fw-bold">机器人策略</h1>
+    <!-- Service Start -->
+    <div
+      class="h-100"
+      style="
+        background-image: url('./img/bg-2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow p-3 custom-card"
+            >
+              <div class="second-card">
+                <p>1</p>
+              </div>
+              <h2 class="text-center">DCA</h2>
+              <hr
+                class="w-50 text-primary border border-top border-2 border-primary"
+              />
+              <p class="custom-card-p h2 mt-4">
+                属于一种最常见的普通机器人交易，适当用于牛市期间或比较看好的币，唯一不同是每一仓都带有分仓模式，避免中套越来越深。
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow p-3 custom-card"
+            >
+              <div class="second-card">
+                <p>1</p>
+              </div>
+              <h2 class="text-center">Bollinger middle</h2>
+              <hr
+                class="w-50 text-primary border border-top border-2 border-primary"
+              />
+              <p class="custom-card-p h2 mt-4">
+                智能机器人，聪明投机策略，会在适当的时刻，买进投机。一样附加了每一仓都分仓模式(重点:只做一单就不会再追)安全可靠
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow p-3 custom-card"
+            >
+              <div class="second-card">
+                <p>1</p>
+              </div>
+              <h2 class="text-center">Bollinger bottom</h2>
+              <hr
+                class="w-50 text-primary border border-top border-2 border-primary"
+              />
+              <p class="custom-card-p h2 mt-4">
+                超智能机器人，这是更加稳重更加保守，超智能机器人策略，会在最稳的时刻才会买进投机，也是用最少资金也能安稳盈利的策略之一，以防万一还是附加了每一仓都是分仓模式(重点:只做一单就不会在追)稳重型
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <h1 class="display-6 fw-bold">为什么做量化会亏钱</h1>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex align-items-start">
+              <button class="border-0 bg-transparent position-relative">
+                <img
+                  class="img-fluid flex-shrink-0"
+                  src="./img/Group.png"
+                  alt=""
+                />
+                <div
+                  class="position-absolute w-100 top-50 fs-3"
+                >
+                  <img src="./img/third/1.png" /> 不会选交易币种
+                </div>
+                <div
+                  class="position-absolute text-light fw-bold fs-3"
+                  style="top: 25%; right: 15%; font-size: 25px"
+                >
+                  1
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex align-items-start">
+              <button class="border-0 bg-transparent position-relative">
+                <img
+                  class="img-fluid flex-shrink-0"
+                  src="./img/Group.png"
+                  alt=""
+                />
+                <div
+                  class="position-absolute w-100 top-50 fs-3"
+                >
+                  <img src="./img/third/2.png" /> 没有交易策略
+                </div>
+                <div
+                  class="position-absolute text-light fw-bold fs-3"
+                  style="top: 25%; right: 15%;"
+                >
+                  2
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex align-items-start">
+              <button class="border-0 bg-transparent position-relative">
+                <img
+                  class="img-fluid flex-shrink-0"
+                  src="./img/Group.png"
+                  alt=""
+                />
+                <div
+                  class="position-absolute w-100 top-50 fs-3"
+                >
+                  <img src="./img/third/3.png" /> 对币没有专业认知
+                </div>
+                <div
+                  class="position-absolute text-light fw-bold fs-3"
+                  style="top: 25%; right: 15%;"
+                >
+                  3
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex align-items-start">
+              <button class="border-0 bg-transparent position-relative">
+                <img
+                  class="img-fluid flex-shrink-0"
+                  src="./img/Group.png"
+                  alt=""
+                />
+                <div
+                  class="position-absolute w-100 top-50 fs-3"
+                >
+                  <img src="./img/third/4.png" /> 对币没有专业认知
+                </div>
+                <div
+                  class="position-absolute text-light fw-bold fs-3"
+                  style="top: 25%; right: 15%;"
+                >
+                  4
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex align-items-start">
+              <button class="border-0 bg-transparent position-relative">
+                <img
+                  class="img-fluid flex-shrink-0"
+                  src="./img/Group.png"
+                  alt=""
+                />
+                <div
+                  class="position-absolute w-100 top-50 fs-3"
+                >
+                  <img src="./img/third/5.png" />
+                  单向交易,币涨赚钱,<br />币跌面临资金被套
+                </div>
+                <div
+                  class="position-absolute text-light fw-bold fs-3"
+                  style="top: 25%; right: 15%;"
+                >
+                  5
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Token Sale Start -->
+    <div
+      class="container"
+      style="display: flex; flex-direction: row; margin-top: 100px"
+    >
+      <img src="./img/Frame.png" />
+      <ul class="w-60">
+        <br />
+        <br />
+        <h4 class="fw-bold">燃料提醒</h4>
+        <li>燃料费少于本金2%会信息提醒</li>
+        <li>燃料少于本金1%机器人停止所有的操作</li>
+        <li>
+          如有发现用户在binance 手动有盈利卖出比如100usdt,惩罚50%,
+          25%归平台，还有25%正常分配，3次重负发生平台将永远停止服务
+        </li>
+        <li>一切在平台所有交易必须尤机器人自动操作或许只在平台手动卖出</li>
+      </ul>
+      <div
+        class="shadow w-25"
+        style="
+          background-color: white;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px 20px;
+          margin-top: 50px;
+          border-radius: 20px;
+        "
+      >
+        <h5 class="text-align text-primary" style="transform: translateY(-30px)">
+          <img src="./img/reminder-1.png" /> 重要提醒
+          <img src="./img/reminder-2.png" />
+        </h5>
+        <p>投资都有风险！ 不管发生什么情感 平台一律不负责</p>
+      </div>
+    </div>
+    <!-- Token Sale Start -->
+    <!-- About Start -->
+    <div class="">
+      <!-- <div class="container"> -->
+      <div class="row align-items-center" style="margin: unset !important">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <img class="img-fluid" src="img/Frame 35.png" alt="" />
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="h-100">
+            <h1 class="display-6 fw-bold">Easy Way To Trade Your Cryptocurrency</h1>
+            <p>
+              Grow your portfolio like the world's most sophisticated investors.
+              We're making institutional portfolio management software available
+              to everyone.
+            </p>
+            <button
+              class="btn btn-primary btn-circle btn-lg mt-5"
+              style="
+                background-image: linear-gradient(to right, #9cb9fe, #fcbaea);
+                padding: 10px 26px;
+                border-radius: 24px;
+              "
+              type="submit"
+            >
+              LEARN MORE
+              <i
+                class="fa fa-chevron-circle-right"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+    <!-- About End -->
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark footer pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6">
+            <img
+              class="img-fluid me-2 h-60"
+              src="./img/logo.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 text-light">
+            <p class="text-end">Contact Us</p>
+            <h4 class="text-light text-end">(+60) 123 - 4567</h4>
+            <p class="text-end">support@cryptrobots.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center mb-3 mb-md-0">
+              &copy;Copyright 2023. All Rights Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
